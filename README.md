@@ -16,7 +16,6 @@ A partir del formulario HTML hecho en Bootstrap se debe...
   - Product Stock: valor mínimo 1, valor máximo 100, campo requerido.
   - Product TimeFraction: valor mínimo 10, máximo 60.
   - Cuando no haya Stock, mostrar un mensaje: 'No hay inventario cargado'
-- Validación Asíncrona: Se debe validar que al momento de crear el product, el mismo no exista en el BackEnd
 - Utilizando ValueChange, debemos:
   - Si es producto, agregar Stock y sus validaciones.
   - Si es servicio, no agregar Stock y definir el TimePeriod y sus validaciones.
